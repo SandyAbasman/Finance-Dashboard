@@ -11,17 +11,16 @@ import Settings from "./Settings.jsx";
 import Sms from "./Sms.jsx";
 import Expenses from "./Expenses.jsx";
 import IncomeLayout from "./IncomeLayout.jsx";
-import FiatIncome from "./FiatIncome.jsx";
+import FiatIncome, { data } from "./FiatIncome.jsx";
 import CryptoIncome from "./CryptoIncome.jsx";
 import TotalIncome from "./TotalIncome.jsx";
-
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route path="/" element={<IncomeLayout />}>
-          <Route index element={<FiatIncome />} />
+          <Route index loader={data} element={<FiatIncome />} />
 
           <Route path="fiat" element={<FiatIncome />} />
           <Route path="crypto" element={<CryptoIncome />} />
@@ -36,7 +35,7 @@ function App() {
     )
   );
 
-  return <RouterProvider  router={router} />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;

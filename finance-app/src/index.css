@@ -60,6 +60,7 @@ a {
   column-gap: 0.5rem;
   justify-content: start;
   align-items: start;
+  padding: 1rem;
 }
 
 .icon-container {
@@ -83,4 +84,11 @@ a {
 .menu-text-container p {
   font-size: 0.85rem;
   color: #c4c4c4;
+}
+
+.active {
+  background: rgb(31, 31, 31);
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
 }
