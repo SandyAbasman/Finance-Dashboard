@@ -1,16 +1,131 @@
 {
-  "details": [
+  "fiatIncomeData": [
     {
-      "amount": "10,0000",
-      "date": " 19 March,2024 "
+      "amount": "8000",
+      "date": " 19 March,2024"
     },
     {
-      "amount": "20,000",
-      "date": " 8 March,2024 "
+      "amount": "12000",
+      "date": " 8 March,2024"
     },
     {
-      "amount": "27,000",
-      "date": " 20 March,2024 "
+      "amount": "4000",
+      "date": " 20 March,2024"
+    }
+  ],
+
+  "cryptoIncomeData": [
+    {
+      "amount": "11000",
+      "date": " 19 March,2024"
+    },
+    {
+      "amount": "40000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "20000",
+      "date": " 20 March,2024"
+    }
+  ],
+  "totalIncomeData": [
+    {
+      "amount": "80000",
+      "date": " 16 June,2015"
+    },
+    {
+      "amount": "20000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "59000",
+      "date": " 12 July,2023"
+    }
+  ],
+  "fiatExpensesData": [
+    {
+      "amount": "4000",
+      "date": " 19 March,2024"
+    },
+    {
+      "amount": "2000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "14000",
+      "date": " 20 March,2024"
+    }
+  ],
+
+  "cryptoExpensesData": [
+    {
+      "amount": "1000",
+      "date": " 19 March,2024"
+    },
+    {
+      "amount": "2000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "7000",
+      "date": " 20 March,2024"
+    }
+  ],
+  "totalExpensesData": [
+    {
+      "amount": "8000",
+      "date": " 16 June,2015"
+    },
+    {
+      "amount": "2000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "2000",
+      "date": " 12 July,2023"
+    }
+  ],
+  "fiatInvestmentData": [
+    {
+      "amount": "18000",
+      "date": " 19 March,2024"
+    },
+    {
+      "amount": "68000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "80000",
+      "date": " 20 March,2024"
+    }
+  ],
+
+  "cryptoInvestmentData": [
+    {
+      "amount": "2000",
+      "date": " 19 March,2024"
+    },
+    {
+      "amount": "1000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "9000",
+      "date": " 20 March,2024"
+    }
+  ],
+  "totalInvestmentData": [
+    {
+      "amount": "8000",
+      "date": " 16 June,2015"
+    },
+    {
+      "amount": "5000",
+      "date": " 8 March,2024"
+    },
+    {
+      "amount": "3000",
+      "date": " 12 July,2023"
     }
   ]
 }

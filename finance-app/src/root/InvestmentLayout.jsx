@@ -1,11 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Income from "./Income.jsx";
+import Investments from "../pages/investment/Investments";
 
-export default function IncomeLayout() {
+function InvestmentLayout() {
   return (
     <div className="w-full h-full px-[2rem] py-[2rem] ">
-      <Income />
+      <Investments />
       <Outlet />
     </div>
   );
 }
+
+export default InvestmentLayout;
