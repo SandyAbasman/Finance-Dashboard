@@ -22,7 +22,7 @@ export default function CryptoIncome() {
       <div className="w-full h-auto flex flex-col justify-start items-start gap-4">
         <DetailTitle
           detailName="Total Cypto Income"
-          totalDetailAMount={totalDetailAMount}
+          totalDetailAMount={`BTC${totalDetailAMount}`}
         />
 
         <div className="w-full h-auto flex flex-col justify-start items-start gap-3 ">

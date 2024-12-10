@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { TiDeleteOutline } from "react-icons/ti";
+import { LiaTimesSolid } from "react-icons/lia";
 
 export default function Notification({
   icon,
@@ -44,9 +44,9 @@ export default function Notification({
         onClick={() => deleteItem(id)}
         className="w-fit h-auto cursor-pointer"
       >
-        <TiDeleteOutline
-          size={"30px"}
-          className="text-black/50 hover:text-zinc-950"
+        <LiaTimesSolid
+          size={"20px"}
+          className="text-black/90 hover:text-zinc-950"
         />
       </div>
     </div>

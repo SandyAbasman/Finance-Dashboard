@@ -18,7 +18,7 @@ export default function TotalIncome() {
       <div className="w-full h-auto flex flex-col justify-start items-start gap-4">
         <DetailTitle
           detailName="Total Income"
-          totalDetailAMount={totalDetailAMount.toLocaleString()}
+          totalDetailAMount={`$${totalDetailAMount.toLocaleString()}`}
         />
 
         <div className="w-full h-auto flex flex-col justify-start items-start gap-3 ">

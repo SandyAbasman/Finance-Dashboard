@@ -20,7 +20,7 @@ export default function FiatIncome() {
       <div className="w-full h-auto flex flex-col justify-start items-start gap-4">
         <DetailTitle
           detailName="Total Fiat Income"
-          totalDetailAMount={totalFiatIncome}
+          totalDetailAMount={`$${totalFiatIncome.toLocaleString()}`}
         />
 
         <div className="w-full h-auto flex flex-col justify-start items-start gap-3 ">

@@ -5,7 +5,7 @@ export default function TabButton({ buttonName, navigateTo }) {
   const navigate = useNavigate();
   return (
     <button
-      className="md:py-[1.25rem] md:px-[3rem] py-3 px-2 text-nowrap focus:bg-[#E3E3E3] h-auto w-[35%] outline-none  border rounded-md  "
+      className="md:py-[0.8rem] md:px-[3rem]  text-black/60 focus:text-green-700 py-3 px-2 text-nowrap focus:border-b-green-700 h-auto w-[35%] outline-none  font-semibold border-b-2   "
       onClick={() => navigate(navigateTo)}
     >
       {buttonName}
