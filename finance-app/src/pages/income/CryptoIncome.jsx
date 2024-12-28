@@ -1,10 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useLoaderData } from "react-router-dom";
-import downloadIcon from "../../assets/download.svg";
+// import downloadIcon from "../../assets/download.svg";
 import FilterButton from "../../Component/FilterButton";
 import DetailTitle from "../../Component/DetailTitle";
 import List from "../../Component/List";
-import Button from "../../Component/Button";
+// import Button from "../../Component/Button.jsx";
 import ChatInput from "../../Component/ChatInput";
 import { calTotal } from "../../data/Incomepagedata";
 
@@ -39,10 +39,12 @@ export default function CryptoIncome() {
         </div>
 
         <div className="w-full h-auto flex flex-row justify-end items-center">
-          <Button buttonName={"Download Report"} icon={downloadIcon} />
+          {/* <Button buttonName={"Download Report"} icon={downloadIcon} /> */}
         </div>
       </div>
       <ChatInput />
     </div>
   );
 }
+
+

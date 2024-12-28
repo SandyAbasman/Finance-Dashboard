@@ -10,7 +10,7 @@ import { useContext } from "react";
 import { userContext } from "../contextApi/UserContextComponent";
 
 export default function MobileSideBar({ setIsOpen, isOpen }) {
-  const { arrayLength } = useContext(userContext);
+  const { filteredArray } = useContext(userContext);
   return (
     <div className="w-[8rem] h-full bg-[#3a3a3a] flex flex-col justify-between py-[4rem] items-center  rounded-[1.5rem]">
       <div className=" h-auto flex flex-col  justify-start items-center gap-12">
@@ -28,7 +28,7 @@ export default function MobileSideBar({ setIsOpen, isOpen }) {
           <div className="relative">
             <img className="w-[40px] h-[40px]" src={smsIcon} alt="sms" />
             <div className=" absolute left-5 top-0 rounded-full w-[24px] h-[24px] text-white  flex flex-row justify-center items-center text-center text-sm bg-red-600">
-              {arrayLength}
+              {filteredArray.length}
             </div>
           </div>
         </NavLink>

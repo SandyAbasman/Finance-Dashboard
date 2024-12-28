@@ -11,7 +11,7 @@ import { useContext } from "react";
 import { userContext } from "../contextApi/UserContextComponent";
 
 export default function Sidebar({ setIsOpen, isOpen }) {
-  const { arrayLength } = useContext(userContext);
+  const { filteredArray } = useContext(userContext);
   return (
     <div className="sidebar-container">
       <img src={logo} alt="logo" />
@@ -52,7 +52,7 @@ export default function Sidebar({ setIsOpen, isOpen }) {
               <h1>SMS alerts</h1>
               <p>Click to see your financial SMS notifications</p>
               <div className=" absolute right-0 top-5 rounded-full w-[24px] h-[24px] text-white  flex flex-row justify-center items-center text-center text-sm bg-red-600">
-                {arrayLength}
+                {filteredArray.length}
               </div>
             </div>
           </div>

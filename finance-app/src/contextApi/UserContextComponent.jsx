@@ -52,9 +52,10 @@ export const userContext = createContext();
 export default function UserContextComponent({ children }) {
   const [array, setArray] = useState(notificationArray);
   const arrayLength = array.length;
+  const [filteredArray, setFIlteredArray] = useState(array);
 
   function deleteItem(id) {
-    setArray((prevArray) => {
+    setFIlteredArray((prevArray) => {
       return prevArray.filter((item) => item.id !== id);
     });
   }
@@ -63,6 +64,9 @@ export default function UserContextComponent({ children }) {
     array,
     deleteItem,
     arrayLength,
+    setArray,
+    filteredArray,
+    setFIlteredArray,
   };
   return (
     <userContext.Provider value={contextValue}>{children}</userContext.Provider>

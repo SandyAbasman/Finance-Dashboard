@@ -33,6 +33,7 @@ import FiatInvestment from "./pages/investment/FiatInvestments.jsx";
 import CryptoInvestment from "./pages/investment/CryptoInvestment.jsx";
 import TotalInvestment from "./pages/investment/TotalInvestment.jsx";
 
+
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
